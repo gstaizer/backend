@@ -78,6 +78,7 @@ namespace PasswordStrengthTests
             Assert.AreEqual(4, passwordStrength.CalcSafety("1"));
             Assert.AreEqual(3, passwordStrength.CalcSafety("c"));
             Assert.AreEqual(46, passwordStrength.CalcSafety("1234asdff"));
+            Assert.AreEqual(70, passwordStrength.CalcSafety("732628jdshhsa@"));
         }
     }
 }
