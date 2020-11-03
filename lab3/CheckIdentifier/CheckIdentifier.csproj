@@ -82,5 +82,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CheckIdentifierLibrary\CheckIdentifierLibrary.csproj">
+      <Project>{b0623e48-3571-4413-b5d8-3326ef2af16a}</Project>
+      <Name>CheckIdentifierLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

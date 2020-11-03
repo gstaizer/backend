@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CheckIdentifierLibrary
 {
-    public class CheckIdentifierLibrary
+    public class CheckIdentifier
     {
         private const int exIndex = -1;
         private int incorrectIndex = exIndex;
