@@ -15,6 +15,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifierTests", "Che
 		{B0623E48-3571-4413-B5D8-3326EF2AF16A} = {B0623E48-3571-4413-B5D8-3326EF2AF16A}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveExtraBlanks", "RemoveExtraBlanks\RemoveExtraBlanks.csproj", "{17347FB8-5ACE-4B8B-885E-CC4405FCBFA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41} = {BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveExtraBlanksLibrary", "RemoveExtraBlanksLibrary\RemoveExtraBlanksLibrary.csproj", "{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveExtraBlanksTests", "RemoveExtraBlanksTests\RemoveExtraBlanksTests.csproj", "{34A7E0D0-4394-4789-A0C0-68B33A3ECAFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41} = {BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordStrength", "PasswordStrength\PasswordStrength.csproj", "{40D8B0A0-63B5-45C1-90D3-AD7BDF7DC893}"
+	ProjectSection(ProjectDependencies) = postProject
+		{251C9607-04C4-41D4-BA42-14EDA159F282} = {251C9607-04C4-41D4-BA42-14EDA159F282}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordStrengthLibrary", "PasswordStrengthLibrary\PasswordStrengthLibrary.csproj", "{251C9607-04C4-41D4-BA42-14EDA159F282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordStrengthTests", "PasswordStrengthTests\PasswordStrengthTests.csproj", "{37F577BC-2E05-4782-B2EE-1632CE5A70A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{251C9607-04C4-41D4-BA42-14EDA159F282} = {251C9607-04C4-41D4-BA42-14EDA159F282}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +57,30 @@ Global
 		{17A68FF6-6E32-42FC-BC9E-2C72E6EDE167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A68FF6-6E32-42FC-BC9E-2C72E6EDE167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A68FF6-6E32-42FC-BC9E-2C72E6EDE167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17347FB8-5ACE-4B8B-885E-CC4405FCBFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17347FB8-5ACE-4B8B-885E-CC4405FCBFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17347FB8-5ACE-4B8B-885E-CC4405FCBFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17347FB8-5ACE-4B8B-885E-CC4405FCBFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0C5F88-789A-4A76-AFCA-76E2BB23AD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A7E0D0-4394-4789-A0C0-68B33A3ECAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A7E0D0-4394-4789-A0C0-68B33A3ECAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A7E0D0-4394-4789-A0C0-68B33A3ECAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A7E0D0-4394-4789-A0C0-68B33A3ECAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D8B0A0-63B5-45C1-90D3-AD7BDF7DC893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D8B0A0-63B5-45C1-90D3-AD7BDF7DC893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D8B0A0-63B5-45C1-90D3-AD7BDF7DC893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D8B0A0-63B5-45C1-90D3-AD7BDF7DC893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251C9607-04C4-41D4-BA42-14EDA159F282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251C9607-04C4-41D4-BA42-14EDA159F282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251C9607-04C4-41D4-BA42-14EDA159F282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251C9607-04C4-41D4-BA42-14EDA159F282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F577BC-2E05-4782-B2EE-1632CE5A70A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F577BC-2E05-4782-B2EE-1632CE5A70A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F577BC-2E05-4782-B2EE-1632CE5A70A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F577BC-2E05-4782-B2EE-1632CE5A70A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

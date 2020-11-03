@@ -14,14 +14,14 @@ namespace CheckIdentifierTests
             Assert.IsFalse(checkIdentifier.IsIdentifier(""));
             Assert.IsTrue(checkIdentifier.IsEmpty());
 
+            Assert.IsFalse(checkIdentifier.IsIdentifier("Ъ"));
+            Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
+
             Assert.IsFalse(checkIdentifier.IsIdentifier("7"));
             Assert.IsFalse(checkIdentifier.IsEmpty());
             Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
 
             Assert.IsFalse(checkIdentifier.IsIdentifier("4дверь"));
-            Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
-
-            Assert.IsFalse(checkIdentifier.IsIdentifier("Ъ"));
             Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
 
             Assert.IsFalse(checkIdentifier.IsIdentifier("дверь4"));
