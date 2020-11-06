@@ -24,12 +24,12 @@ namespace CheckIdentifierTests
             Assert.IsFalse(checkIdentifier.IsIdentifier("4дверь"));
             Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
 
-            Assert.IsFalse(checkIdentifier.IsIdentifier("дверь4"));
-            Assert.AreEqual(1, checkIdentifier.GetIncorrectIndex());
+            Assert.IsFalse(checkIdentifier.IsIdentifier("7436дверь"));
+            Assert.AreEqual(0, checkIdentifier.GetIncorrectIndex());
 
-            Assert.IsTrue(checkIdentifier.IsIdentifier("лифт"));
-            Assert.IsTrue(checkIdentifier.IsIdentifier("лифт4"));
-            Assert.IsTrue(checkIdentifier.IsIdentifier("Лифт"));
+            Assert.IsTrue(checkIdentifier.IsIdentifier("a"));
+            Assert.IsTrue(checkIdentifier.IsIdentifier("aP"));
+            Assert.IsTrue(checkIdentifier.IsIdentifier("A"));
         }
     }
 }
